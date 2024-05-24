@@ -1,2 +1,1 @@
-# Projekt3
-projekt na techniki programowania
+Wszystkie potrzebne informacje znajduja sie w raporcie

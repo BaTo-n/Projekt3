@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.4...3.29)
+project(sygnaly)
+add_subdirectory(matplotplusplus)
+add_subdirectory(AudioFile)
+add_subdirectory(pybind11)
+pybind11_add_module(signals main.cpp)
+set(libs matplot AudioFile)
+target_link_libraries(signals PUBLIC ${libs})
